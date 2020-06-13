@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "$YOUR_STACK_NAME"
+s3_bucket = "$YOUR_DEPLOY_BUCKET"
+s3_prefix = "$YOUR_STACK_NAME"
+region = "eu-west-2"
+profile = "samuser"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
